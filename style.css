@@ -1,0 +1,354 @@
+@font-face {
+    font-family: 'scheherazade';
+    src: url('fonts/scheherazade.regular.ttf'), url('fonts/scheherazade.regular.ttf') format('truetype'), url('fonts/scheherazade.regular.ttf') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo img {
+    width: 10%;
+    height: auto;
+}
+
+.navbar {
+    margin: 0 auto;
+    width: 48%;
+    position: absolute;
+    bottom: 80px;
+}
+
+.navbar-collapse .nav-link {
+    color: #42403E;
+    font-size: 38px;
+    font-family: 'Sedan SC', sans-serif;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.image-bmw img {
+    width: 100vw;
+    height: 45vh;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    object-fit: cover;
+}
+
+.image-carbon img {
+    border-top: 2px solid red;
+    margin-top: 30px;
+    width: 100vw;
+    height: 400px;
+    opacity: 0.8;
+}
+
+.about-us h1 {
+    text-align: center;
+    position: relative;
+    bottom: -200px;
+    z-index: 1;
+    color: white;
+    font-family: 'scheherazade', sans-serif;
+
+}
+
+.about-us p {
+    text-align: center;
+    position: relative;
+    bottom: -200px;
+    z-index: 1;
+    color: white;
+    font-family: 'scheherazade', sans-serif;
+
+}
+
+.client-section h1 {
+    text-align: center;
+    font-family: 'scheherazade', sans-serif;
+    color: #42403E;
+    border-top: 2px solid red;
+}
+
+.client-section p {
+    text-align: center;
+    font-family: 'scheherazade', sans-serif;
+    color: #42403E;
+}
+
+.card {
+    height: 70% !important;
+    object-fit: cover !important;
+}
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+    height: 100% !important;
+}
+
+.row.row-cols-1.row-cols-md-3.g-4 {
+    width: 76%;
+    flex-wrap: nowrap;
+    margin-top: 40px;
+}
+
+.services-section h1 {
+    text-align: center;
+    font-family: 'scheherazade', sans-serif;
+    color: #42403E;
+    position: relative;
+    top: 110px;
+    z-index: 2;
+}
+
+.backg {
+    width: 100vw;
+    opacity: 0.35;
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+}
+
+.services-section .row.row-cols-1.row-cols-md-3.g-4 {
+    width: 76%;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 220px;
+    position: absolute;
+    bottom: -2100px;
+}
+
+h5.card-title {
+    font-family: 'scheherazade', sans-serif;
+    color: #42403E;
+    font-size: 50px !important;
+    z-index: 3;
+}
+
+.testimony-section img {
+    width: 100vw;
+    opacity: 0.8;
+    object-fit: cover;
+    height: 34vh;
+    position: relative;
+    /* bottom: 976px; */
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+}
+
+.testimony-section p {
+    position: absolute;
+    bottom: -2400px;
+    font-family: 'scheherazade', sans-serif;
+    color: white;
+    z-index: 3;
+    font-size: 25px;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    left: 500px;
+}
+
+footer {
+    background: white;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; }
+
+.footer-content h3 {
+        font-size: 2.1rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        line-height: 3rem;
+        color: #42403E;
+        font-family: 'Sedan SC', sans-serif;
+      
+}
+
+.footer-content h3 a {
+    color: #42403E;
+    font-family: 'Sedan SC', sans-serif;
+    text-decoration: none;
+  
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 20px;
+    color: #42403E;
+    font-family: 'Sedan SC', sans-serif;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    font-size: 25px;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #42403E;
+    padding: 5px;
+}
+
+.footer-bottom {
+    background: white;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: #42403E;
+    text-align: center;
+}
+
+.footer-bottom p a {
+    color: #44bae8;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-menu {
+    float: right;
+}
+
+.footer-menu ul {
+    display: flex;
+}
+
+.footer-menu ul li {
+    padding-right: 10px;
+    display: block;
+}
+
+.footer-menu ul li a {
+    color: #42403E;
+    text-decoration: none;
+    font-family: 'Sedan SC', sans-serif;
+}
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+
+
+a.nav-link {
+    background-image: linear-gradient(
+      to right,
+      black,
+      red 50%,
+      #42403E 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a.nav-link:before {
+    content: '';
+    background: red;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a.nav-link:hover {
+   background-position: 0;
+  }
+  
+  a.nav-link:hover::before {
+    width:100%;
+  }
+
+  
+
+
+
+
+
+  .footer-content h3 {
+    background-image: linear-gradient(
+      to right,
+      black,
+      red 50%,
+      #42403E 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .footer-content h3:before {
+    content: '';
+    background: red;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .footer-content h3:hover {
+   background-position: 0;
+  }
+  
+  .footer-content h3:hover::before {
+    width:100%;
+  }
+
+  
+
+.socials li { transition: all .2s ease-in-out; }
+.socials li:hover { transform: scale(1.5); }
+
+img.card-img-top{
+    transition: all 400ms ease-in-out;;
+    transform-origin: left top right bottom;
+  }
+  img.card-img-top:hover {
+    transform: scale(1.04);
+  }
